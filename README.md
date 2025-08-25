@@ -6,11 +6,11 @@ A minimal, high-performance event bus.
 
 - **High Performance:** Fast pub/sub routing.
 - **Minimal & Lightweight:** Tiny memory footprint, no unnecessary boilerplate.
-- **All you need:** Subscribe, publish, and process events however you like.
+- **All you need:** Subscribe, publish, and event handling result processing however you like.
 
 ### Get started
 
-You can build dependency and append it to your local .m2 directory, by using: ./gradlew publishToMavenLocal
+You can build dependency and append it to your local .m2 directory, by using: `./gradlew publishToMavenLocal`
 
 ### Wisp in action:
 
