@@ -2,6 +2,12 @@
 
 A minimal, high-performance event bus.
 
+### Why Wisp?
+
+- **High Performance:** Fast pub/sub routing.
+- **Minimal & Lightweight:** Tiny memory footprint, no unnecessary boilerplate.
+- **All you need:** Subscribe, publish, and process events however you like.
+
 ### Get started
 
 You can build dependency and append it to your local .m2 directory, by using: ./gradlew publishToMavenLocal
