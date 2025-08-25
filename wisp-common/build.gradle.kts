@@ -6,5 +6,5 @@ plugins {
 }
 
 wispPublish {
-    artifactId = "wisp-common"
+    artifactId = "wisp"
 }
