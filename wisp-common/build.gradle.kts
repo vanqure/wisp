@@ -1,7 +1,6 @@
 plugins {
-    `wisp-java`
-    `wisp-publish`
-    `wisp-repositories`
+    id("io.github.wisp.java")
+    id("io.github.wisp.publish")
 }
 
 wispPublish {

@@ -1,6 +1,6 @@
-package dev.vanqure.wisp.result;
+package io.github.wisp.subscription.result;
 
-import dev.vanqure.wisp.event.Event;
+import io.github.wisp.event.Event;
 import java.util.HashMap;
 import java.util.Map;
 import org.jetbrains.annotations.NotNull;
@@ -12,11 +12,11 @@ public sealed interface ResultProcessorRegistry permits ResultProcessorRegistryI
         return create(new HashMap<>());
     }
 
-    static ResultProcessorRegistry create(final Map<Class<?>, ResultProcessor<?, ?>> processorsByTypeMap) {
+    static ResultProcessorRegistry create(Map<Class<?>, ResultProcessor<?, ?>> processorsByTypeMap) {
         return new ResultProcessorRegistryImpl(processorsByTypeMap);
     }
 
     <E extends Event, T> void register(@NotNull Class<T> resultType, @NotNull ResultProcessor<E, T> resultProcessor);
 
-    <E extends Event, T> void process(final @NotNull E event, final @Nullable T value);
+    <E extends Event, T> void process(@NotNull E event, @Nullable T value);
 }

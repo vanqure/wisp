@@ -6,6 +6,10 @@ plugins {
     `java-library`
 }
 
+repositories {
+    mavenCentral()
+}
+
 dependencies {
     compileOnly(libs.jetbrains.annotations)
 }

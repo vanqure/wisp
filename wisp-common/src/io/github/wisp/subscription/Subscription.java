@@ -1,4 +1,4 @@
-package dev.vanqure.wisp.subscription;
+package io.github.wisp.subscription;
 
 import java.lang.invoke.MethodHandle;
 import java.util.Set;

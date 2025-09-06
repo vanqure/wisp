@@ -1,4 +1,4 @@
-package dev.vanqure.wisp.event;
+package io.github.wisp.event;
 
 import java.util.concurrent.Executor;
 import org.jetbrains.annotations.NotNull;
@@ -7,5 +7,5 @@ import org.jetbrains.annotations.NotNull;
 public interface EventPublisher extends Executor {
 
     @Override
-    void execute(final @NotNull Runnable task);
+    void execute(@NotNull Runnable task);
 }

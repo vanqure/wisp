@@ -3,7 +3,7 @@ plugins {
     `maven-publish`
 }
 
-group = "dev.vanqure.wisp"
+group = "io.github.wisp"
 version = "1.0.0-SNAPSHOT"
 
 java {

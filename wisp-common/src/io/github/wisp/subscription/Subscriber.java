@@ -1,4 +1,4 @@
-package dev.vanqure.wisp.subscription;
+package io.github.wisp.subscription;
 
 public interface Subscriber {
 

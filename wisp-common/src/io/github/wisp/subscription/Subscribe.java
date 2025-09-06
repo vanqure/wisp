@@ -1,4 +1,4 @@
-package dev.vanqure.wisp.subscription;
+package io.github.wisp.subscription;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
