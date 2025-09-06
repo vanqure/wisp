@@ -1,10 +1,5 @@
 [versions]
-jupiter = "5.13.4"
-assertj = "3.27.4"
 annotations = "26.0.2"
 
 [libraries]
-assertj-core = { module = "org.assertj:assertj-core", version.ref = "assertj" }
-junit-jupiter-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "jupiter" }
-junit-jupiter-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "jupiter" }
 jetbrains-annotations = { module = "org.jetbrains:annotations", version.ref = "annotations" }
